@@ -1,0 +1,215 @@
+/* Import Google Fonts (Roboto Mono and Orbitron) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&family=Orbitron:wght@500&display=swap');
+
+/* Global Styles */
+body {
+  font-family: 'Roboto Mono', monospace;
+  margin: 0;
+  display: flex;
+  color: hsla(180, 29%, 72%, 0.75);
+  background: black;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+
+svg {
+  width: 24px;
+  height: 24px;
+}
+
+/* register Container Styles */
+.container {
+  display: block;
+  position: relative;
+  align-self: center;
+  padding: 0.1rem;
+  width: 80%;
+  height: auto;
+  background: hsl(180deg 88.18% 56.86%);
+  clip-path: polygon(25px 0%, 100% 0, 100% calc(100% - 25px), calc(100% - 25px) 100%, 0 100%, 0% 25px);
+}
+
+/* register Panel Styles */
+.register-panel {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0.75rem;
+  background: black;
+  height: auto;
+  clip-path: polygon(25px 0%, 100% 0, 100% calc(100% - 25px), calc(100% - 25px) 100%, 0 100%, 0% 25px);
+}
+
+/* Button Styles */
+.button-group {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Electrolize', sans-serif;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+/* Button Styles */
+.button {
+  display: flex;
+  align-content: center;
+  padding: 0.5rem 0;
+  color: #000000;
+  background: #FF0578;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+  width: 100%;
+  margin: 0;
+}
+
+.clip-1 {
+  width: 20%;
+  clip-path: polygon(20px 0%, 100% 0, 100% calc(100% - 0px), calc(100% - 20px) 100%, 0 100%, 0% 20px);
+}
+
+.clip-2 {
+  width: 20%;
+  clip-path: polygon(0px 0%, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%, 0% 20px);
+}
+
+/* register Form Styles */
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  color: #FFFFFF;
+  width: 100%;
+}
+
+/* Input Group Styles */
+.input-group {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0 0.5rem 0;
+}
+
+/* Input Label Styles */
+.input-label {
+  font-family: 'Electrolize', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  top: -0.75rem;
+  left: 1.25rem;
+  border: 0.1rem solid hsl(180deg 88.18% 56.86%);
+  background: hsl(180deg 88.18% 20%);
+  padding: 0.25em 0.5rem;
+}
+
+/* Input Field Styles */
+.input-field {
+  background: hsl(180deg 88.18% 20%);
+  font-family: 'Electrolize', sans-serif;
+  font-size: 1.2rem;
+  border: 0.1rem solid hsl(180deg 88.18% 56.86%);
+  outline: 0;
+  width: 100%;
+  height: 3rem;
+}
+
+/* Password Toggle Styles */
+.password-toggle {
+  position: absolute;
+  top: 1rem;
+  right: 0.5rem;
+}
+
+.space {
+  margin: 1rem 0;
+}
+
+.extra {
+  margin-top: 0.75rem;
+}
+
+.or {
+  position: relative;
+  font-size: 1rem;
+  color: cyan;
+  margin: 0.5rem 0;
+}
+
+.or:after,
+.or:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0.5rem;
+  height: 0;
+  border: 1px solid cyan;
+}
+
+.or:after {
+  right: 0;
+  width: 45%;
+}
+
+.or:before {
+  left: 0;
+  width: 45%;
+}
+
+/* Hover Styles for Buttons */
+button:hover,
+svg:hover {
+  background: hsl(180deg 88.18% 56.86%);
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Your styles for tablets and laptops go here */
+
+  .container {
+    /* Adjust font size for better readability on larger screens */
+    width: 40%;
+  }
+
+  /* Add more styles as needed */
+}
+
+/* Triangles for Decorative Corners */
+.triangle-top-left,
+.triangle-bottom-right,
+.triangle-bottom-left,
+.triangle-top-right {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.triangle-top-left {
+  top: 0px;
+  left: 0px;
+  border-top: 2.5rem solid #FF0578;
+  border-right: 2.5rem solid transparent;
+}
+
+.triangle-bottom-right {
+  bottom: 0px;
+  right: 0px;
+  border-bottom: 2.5rem solid #FF0578;
+  border-left: 2.5rem solid transparent;
+}
+
+.triangle-bottom-left {
+  bottom: 0px;
+  left: 0px;
+  border-bottom: 2.5rem solid #FF0578;
+  border-right: 2.5rem solid transparent;
+}
+
+.triangle-top-right {
+  top: 0px;
+  right: 0px;
+  border-top: 2.5rem solid #FF0578;
+  border-left: 2.5rem solid transparent;
+}
