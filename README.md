@@ -19,6 +19,7 @@ Welcome to the Feature-Rich Registration Page repository! This project provides 
 ## Preview
 
 [Live Preview](https://noscreator.github.io/featurastic-registration-page/)
+![IMG_20240309_191540](https://github.com/noscreator/featurastic-registration-page/assets/152608930/22db2021-32d9-41af-9b1a-f17d1ff0d6b5)
 
 
 ## Usage
