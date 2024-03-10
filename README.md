@@ -1,8 +1,20 @@
-# Featuristic Registration Page
+![GitHub Pages](https://img.shields.io/github/deployments/noscreator/featurastic-registration-page/github-pages.svg?style=flat-square&color=cyan)
+![GitHub Latest Release](https://img.shields.io/github/v/release/noscreator/featurastic-registration-page.svg?style=flat-square&color=cyan)
+![GitHub License](https://img.shields.io/github/license/noscreator/featurastic-registration-page.svg?style=flat-square&color=cyan)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/noscreator/featurastic-registration-page.svg?style=flat-square&color=cyan)
+
+---
+
+### Featuristic Registration Page
+
+[![thumbnail  ](https://github.com/noscreator//assets/)
+](https://youtu.be/id)
+
 Welcome to the Feature-Rich Registration Page repository! This project provides a registration page with a variety of features for user sign-up.
 
+---
 
-## Features
+### Features
 
 - User-friendly registration form
 - Customizable input validation
@@ -10,53 +22,37 @@ Welcome to the Feature-Rich Registration Page repository! This project provides 
 - Ensures a secure regisration experience with customizable form fields.
 - Responsive design for various devices
 
-## Technologies Used
+---
 
-- HTML
-- CSS
-- JavaScript
+### Links
 
-## Preview
+[![Web Demo](https://img.shields.io/badge/Web-Demo-Cyan?style=for-the-badge&logo=google-chrome)](https://noscreator.github.io/featurastic-registration-page)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-Cyan?style=for-the-badge&logo=github)](https://github.com/noscreator/featurastic-registration-page)
+[![YouTube Video](https://img.shields.io/badge/YouTube-VideoCyan?style=for-the-badge&logo=youtube)](https://youtu.be/id)
 
-[Live Preview](https://noscreator.github.io/featurastic-registration-page/)
-![IMG_20240309_191540](https://github.com/noscreator/featurastic-registration-page/assets/152608930/22db2021-32d9-41af-9b1a-f17d1ff0d6b5)
+---
 
+### Installation
 
-## Usage
+Provide step-by-step instructions on how to install and set up your project.
 
 1. Clone the repository:
-
    ```bash
-   git clone https://github.com/noscreator/featuristic-registration-page.git
+   git clone https://github.com/noscreator/featurastic-registration-page.git
    ```
-
 2. Open `index.html` in your preferred web browser.
+3. Explore the login page and enjoy the featuristic experience!
 
-3. Explore the regisration page and enjoy the featuristic experience!
+---
 
-## File Structure
+### Usage
+> Explain how users can utilize your project.
+Include code snippets and examples if necessary.
+---
 
-```plaintext
-featuristic-regisration-page/
-├── index.html
-├── css/
-│   ├── style.css
-│   └── other-styles.css
-├── js/
-│   ├── script.js
-│   └── additional-script.js
-├── images/
-│   ├── background.jpg
-│   └── logo.png
-├── fonts/
-│   ├── roboto-mono.woff
-│   └── orbitron.woff
-└── README.md
-```
+### Contributing
 
-## Contributing
-
-If you'd like to contribute to this project, please follow these steps:
+If you'd like to contribute to this project, please follow these ste
 
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature/improvement`).
@@ -64,6 +60,8 @@ If you'd like to contribute to this project, please follow these steps:
 4. Push to the branch (`git push origin feature/improvement`).
 5. Open a Pull Request.
 
-## License
+---
 
-This project is licensed under the [MIT License](LICENSE).
+### License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
