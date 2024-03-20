@@ -6,16 +6,13 @@
 ---
 
 ### Featuristic Registration Page
-
-[![thumbnail  ](https://github.com/noscreator//assets/)
-](https://youtu.be/id)
+![Blue Futuristic Technology Presentation_20240320_182424_0000](https://github.com/noscreator/featurastic-registration-page/assets/152608930/de618fa6-fe8a-4bec-a528-13d313e7ed12)
 
 Welcome to the Feature-Rich Registration Page repository! This project provides a registration page with a variety of features for user sign-up.
 
 ---
 
 ### Features
-
 - User-friendly registration form
 - Customizable input validation
 - Provides an engaging interface with interactive buttons and animations.
@@ -25,7 +22,6 @@ Welcome to the Feature-Rich Registration Page repository! This project provides 
 ---
 
 ### Links
-
 [![Web Demo](https://img.shields.io/badge/Web-Demo-Cyan?style=for-the-badge&logo=google-chrome)](https://noscreator.github.io/featurastic-registration-page)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-Cyan?style=for-the-badge&logo=github)](https://github.com/noscreator/featurastic-registration-page)
 [![YouTube Video](https://img.shields.io/badge/YouTube-VideoCyan?style=for-the-badge&logo=youtube)](https://youtu.be/id)
@@ -33,7 +29,6 @@ Welcome to the Feature-Rich Registration Page repository! This project provides 
 ---
 
 ### Installation
-
 Provide step-by-step instructions on how to install and set up your project.
 
 1. Clone the repository:
@@ -51,7 +46,6 @@ Include code snippets and examples if necessary.
 ---
 
 ### Contributing
-
 If you'd like to contribute to this project, please follow these ste
 
 1. Fork the repository.
@@ -63,5 +57,4 @@ If you'd like to contribute to this project, please follow these ste
 ---
 
 ### License
-
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
